@@ -6,7 +6,7 @@ function exercise3() {
   // It is should print to the console the numbers 1, 2, 3, 4, 5.
   //
   // Edit only the code between the lines (below)
-  // -----------------------------------------------------------------
+  // ok-----------------------------------------------------------------
   for (let number = 2; number < 7; number++) {
     console.log(number);
   }
