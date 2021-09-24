@@ -14,8 +14,19 @@ function exercise11() {
   // _#_#_#_#
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+  // var board = "";
+var even = " # # # #";
+var odd = "# # # #";
+var i = 1;
+while (i <= 8) {
+  if (i % 2 == 0) {
+    console.log(even);
+  } else {
+    console.log(odd);
+  }
+  var i = i + 1;
+}
+ // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
   //

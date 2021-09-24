@@ -5,7 +5,11 @@ function exercise6_1() {
   // all of the integers from 0 to 100.
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
+  // 
+  for (let number = 0; number <= 100; number++) 
+  {
+    console.log(number);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
