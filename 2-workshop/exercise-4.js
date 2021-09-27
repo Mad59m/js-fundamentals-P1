@@ -12,6 +12,10 @@ function exercise4() {
   for (let number = 0; number < 12; number++) {
     console.log(square);
   }
+
+  for (let number = 1; number < 6; number++) {
+    console.log(number);
+  }
   // -----------------------------------------------------------------
   // Edit only the code between the lines (above)
   //
