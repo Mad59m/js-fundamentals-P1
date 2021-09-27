@@ -13,6 +13,12 @@ function exercise5() {
     }
     console.log(number);
   }
+
+  for (let number = 0; number < 26; number++) {
+    if (number % 2 === 1) {
+      console.log(number);
+    }    
+  }
   // -----------------------------------------------------------------
   // Edit only the code between the lines (above)
   //
