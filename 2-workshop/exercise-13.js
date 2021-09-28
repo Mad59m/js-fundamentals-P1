@@ -19,7 +19,17 @@ function exercise13() {
   // (The numbers get big quickly!)
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
+  // let first=0;
+let second=1;
+let number=0;
+
+for(let i=3; i<=50; i++)
+{
+  number=first+second;
+  first=second;
+  second=number;
+}
+console.log(number);
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
