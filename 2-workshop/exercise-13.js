@@ -19,7 +19,8 @@ function exercise13() {
   // (The numbers get big quickly!)
   //
   // Write code between the lines (below)
-  // let first=0;
+  // 
+let first=0;
 let second=1;
 let number=0;
 
@@ -30,18 +31,16 @@ for(let i=3; i<=50; i++)
   second=number;
 }
 console.log(number);
-  //
-  //another way
-  var i;
+//
+var i;
 var fib = []; // Initialize array!
 
 fib[0] = 0;
 fib[1] = 1;
 for (i = 2; i <= 50; i++) {
   // Next fibonacci number = previous + one before previous
-  // Translated to JavaScript:
-  fib[i] = fib[i - 2] + fib[i - 1];
-  console.log(fib[i]);
+fib[i] = fib[i - 2] + fib[i - 1];
+console.log(fib[i]);
 }
   // Write code between the lines (above)
   //
